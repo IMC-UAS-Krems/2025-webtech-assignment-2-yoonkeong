@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SantaFund</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-success">
+        <div class="container-fluid" > 
+            <a class="navbar-brand" href="#">SantaFund</a>
+            <button class="navbar-right" onclick="cartButton()"><img id="cartButton" src="img/cart.png"></button>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <section class="container padding-gap">
+            <div class="row pb-5">
+                <div class="p-3 col-sm-6 col-md-6 col-lg-6">
+                    <h1 class="display-1 p-4 ">Be a <br>Santa This <br>Christmas</h1>
+                </div>
+
+                 <!--Reference: W3Schools Responsive Images-->
+                <div class="pt-4 col-sm-6 col-md-6 col-lg-6">
+                    <img class="img-fluid" src="img/santa-claus.jpg">
+                </div>
+
+            </div>
+            <blockquote class="blockquote text-center mt-5 mb-5">Every cookie, socks, and ornament you buy helps bring smiles and warmth to children. <strong>All proceeds are donated.</strong></blockquote>
+        </section>
+    
+        <section class="container py-5 mb-3">
+            <div class="row pb-5">
+                <div class="col-4">
+                    <img class="christmas-image img-fluid" src="img/christmas1.jpg">
+                </div>
+                <div class="col-4">
+                    <img class="christmas-image img-fluid" src="img/christmas2.jpg">
+                </div>
+                <div class="col-4">
+                    <img class="christmas-image img-fluid" src="img/christmas3.jpg">
+                </div>
+            </div>
+
+            <h2 class="text-center mt-3 ">"Make Christmas Brighter for Someone"</h2>
+        </section>
+
+        <!--product list-->
+        <section class="container py-5 mb-3">
+
+            <div class="row">
+
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-cookie1.jpg">
+                    <div class="product">
+                        <h5>Santa & Friends Cookie Set</h5>
+                        <p>€4.50</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-cookie2.jpg">
+                    <div class="product">
+                        <h5>Snowman Tree Cookie Set</h5>
+                        <p>€4.00</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-cookie3.jpg">
+                    <div class="product">
+                        <h5>Winter Wonderland Cookie Set</h5>
+                        <p>€4.80</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-cookie4.jpg">
+                    <div class="product">
+                        <h5>Festive Shaped Cookie Set</h5>
+                        <p>€5.00</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-ornament1.jpg">
+                    <div class="product">
+                        <h5>Classic Santa Ornament</h5>
+                        <p>€6.00</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-ornament2.jpg">
+                    <div class="product">
+                        <h5>Crystal Star Ornament</h5>
+                        <p>€5.50</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-ornament3.jpg">
+                    <div class="product">
+                        <h5>Red & Gold Ball Ornament</h5>
+                        <p>€4.80</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-ornament4.jpg">
+                    <div class="product">
+                        <h5>Gingerbread Man Ornament</h5>
+                        <p>€5.00</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-socks1.jpg">
+                    <div class="product">
+                        <h5>Mini Character Stockings</h5>
+                        <p>€7.00</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                     </div>
+                </div>
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-socks2.jpg">
+                    <div class="product">
+                        <h5>Santa Family Fireplace Stockings</h5>
+                        <p>€6.50</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-socks3.jpg">
+                    <div class="product">
+                        <h5>Cute Bear & Snowman Stockings</h5>
+                        <p>€7.20</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div> 
+                <div class="col-3">
+                    <img class="christmas-image img-fluid" src="img/product-socks4.jpg">
+                    <div class="product">
+                        <h5>Rustic Red Truck Christmas Stockings</h5>
+                        <p>€8.00</p>
+                        <button class="add-cart" onclick="myFunction(this)">Add Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Cart section-->
+    <section id="cart-section">
+        <h4>My Cart</h4>
+        <button class="goback-button" onclick="goback()">Back</button>
+        <button id="checkout-button" onclick="checkout()">Checkout</button>
+        <ul id="cart-container"></ul>
+
+    </section>
+    
+    <!--Checkout section-->
+    <section id="checkout-section">
+        <h4>Checkout</h4>
+        <button class="goback-button" onclick="goback()">Back</button>
+        <button id="confirm-button" onclick="checkoutConfirm()">Confirm</button>
+
+        <div class="checkout-form">
+
+        <!--Reference: W3Schools Input Forms-->
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input class="form-control" id="firstName" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input class="form-control" id="lastName" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input class="form-control" id="phone" type="text" placeholder="e.g. 0123456789">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input class="form-control" id="email" type="text" placeholder="e.g. santa@example.com">
+        </div>
+
+        <div class="form-group">
+            <label for="zip">Zip Code</label>
+            <input class="form-control" id="zip" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="address">Address</label>
+            <input class="form-control" id="address" type="text">
+        </div>
+        </div>
+    </section>
+
+    <!-- Confirm Summary Page -->
+    <section id="confirm-section">
+        <h4>Order Summary</h4>
+        <button class="goback-button" onclick="goback()">Back</button>
+        <div id="summary-box"></div>
+        <button id="final-confirm-button" onclick="finalConfirm()">Final Confirm</button>
+    </section>
+ 
+
+    <footer>
+        <p class="text-center">©2025 Santa's Little Helpers. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html> 

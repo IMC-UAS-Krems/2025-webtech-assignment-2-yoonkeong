@@ -1,0 +1,204 @@
+.navbar-brand {
+    font-family:fantasy;
+    font-size: 45px;
+    padding: 20px;
+    color: brown;
+}
+
+#cartButton {
+    width: 70px;
+}
+
+#cart-container {
+    padding-bottom: 200px;
+}
+
+#cart-container li {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    gap: 20px;   
+    border-bottom: dotted;
+    margin-left: auto;      
+}
+
+
+#cart-container img {
+    margin-top: 25px;
+    width: 120px;
+    height: 120px;
+}
+
+#checkout-button, #confirm-button {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    padding: 10px 10px;
+    color: white;
+    background-color: darkgreen;
+    border-color: lightgreen;
+}
+
+#confirm-section {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    background-color: rgb(167, 60, 60);
+    display: none;
+    color: black;
+}
+
+#confirm-section hr {
+    border: none;
+    border-top: 1px solid #cc9999;
+    margin: 20px 0;
+}
+
+#final-confirm-button {
+    display: block;
+    margin: 30px auto;
+    width: 220px;
+    padding: 12px 10px;
+    color: white;
+    background-color: darkgreen;
+    border: 2px solid lightgreen;
+    font-size: 16px;
+}
+
+/*Reference: W3Schools - Card and Box Shadow tutorials*/
+.summary-card {
+    background-color: rgba(255, 255, 255, 0.07);
+    padding: 25px 30px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.3);
+    backdrop-filter: blur(3px);
+}
+
+.summary-block {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 20px;
+    color: #ffd700;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 8px;
+}
+
+.summary-block p {
+    margin: 4px 0;
+    font-size: 15px;
+}
+
+.discount-line {
+    color: #ffdf76;
+    font-weight: bold;
+}
+
+.goback-button {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    padding: 10px 10px;
+    color: white;
+    background-color: rgb(184, 7, 7);
+    border-color: rgb(255, 4, 4);
+}
+
+.checkout-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.christmas-image {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.add-cart {
+    padding: 5px 40px 5px;
+    color: white;
+    background-color: darkgreen;
+    border-color: lightgreen;
+    
+}
+
+.product {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/*Reference: W3Schools - Flexbox column layout*/
+.col-3 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.navbar {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+
+.padding-gap {
+    padding-top: 100px;
+}
+
+#cart-section {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    height: 100% ;
+    padding-top: 20px;
+    background-color: rgb(167, 60, 60); 
+    display: none;
+    color: black;
+}
+
+#checkout-section {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    height: 100% ;
+    padding-top: 20px;
+    background-color: rgb(167, 60, 60); 
+    display: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color:  #ffd700;
+}
+
+h4 {
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+}
+
+blockquote {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffd700;
+}
+
+body {
+    background-color: brown;
+    color: white;
+}
+
